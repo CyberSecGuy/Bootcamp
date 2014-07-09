@@ -1,1 +1,1 @@
-Started by Doddsy, maintained/updated by Locknlol, Onedigitia and Double.
+Started by Doddsy, maintained/updated by Locknlol, Onedigita and Double.
