@@ -24,7 +24,7 @@ respawndelay = 5;
 joinUnassigned = 1;
 respawnTemplatesWest[] = {"MenuInventory"};
 respawnTemplatesEast[] = {"MenuInventory"};
-class Header { gameType   = Coop; minPlayers = 1; maxPlayers = 62; };
+class Header { gameType   = Coop; minPlayers = 1; maxPlayers = 45; };
 #include "taw_vd\dialog.hpp"
 class RscTitles 
 {
