@@ -1,0 +1,138 @@
+//////////////////////////////////////////
+//// Doddsy's Bootcamp Layout.
+//// *CLAN NAME* | 19THMCU.COM
+//// CREATED BY: 19TH MILITARY COMBAT UNIT
+//// 5/04/2014: Developer: -SSGT-Doddsy
+//////////////////////////////////////////
+
+// Default Parameters
+showCompass = 1;
+showGPS = 1;
+showWatch = 1;
+showNotePad = 1;
+disabledAI = 1;
+OnLoadMission = "Welcome to the 19th Military Combat Unit bootcamp: the bootcamp for most training exercises with in our unit.";
+loadScreen = "loadscreen\bootcamp.jpg"; 
+
+OnLoadName = "Back to Basic";
+saving = 0;
+Author = "and for the 19th Military Combat Unit";
+// Respawn
+respawn = "BASE";
+respawnonstart = false;
+respawndelay = 5;
+joinUnassigned = 1;
+respawnTemplatesWest[] = {"MenuInventory"};
+respawnTemplatesEast[] = {"MenuInventory"};
+class Header { gameType   = Coop; minPlayers = 1; maxPlayers = 62; };
+#include "taw_vd\dialog.hpp"
+class RscTitles 
+{
+	#include "=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.h"
+};
+class CfgRespawnInventory
+{
+	class WEST1
+	{
+		displayName = "Instructor";
+		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\Sergeant_gs.paa";
+
+
+		weapons[] = {
+			"Rangefinder"
+		};
+		items[] = {
+			"ACRE_PRC148",
+			"NvGoggles"
+		};
+		linkedItems[] = {
+			"V_PlateCarrier1_blk",
+			"H_Beret_blk",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio"
+		};
+		uniformClass = "TFA_BLACK_SND";
+	};
+	class WEST2
+	{
+		displayName = "Private";
+		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\Corporal_gs.paa";
+
+		items[] = {
+			"ACRE_PRC148",
+			"NvGoggles"
+		};
+		linkedItems[] = {
+			"TFA_PlateCarrierH_Tan",
+			"TFA_ECH_Tan",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio"
+		};
+		uniformClass = "TFA_BLACK_SND";
+		backpack = "TFA_Kitbag_Tan";
+	};
+	class WEST3
+	{
+		displayName = "Candidate";
+		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\Private_gs.paa";
+
+		items[] = {
+			"ACRE_PRC148",
+			"NvGoggles"
+		};
+		linkedItems[] = {
+			"TFA_Candidates_Vest",
+			"H_Cap_red",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio"
+		};
+		uniformClass = "TFA_BLACK_SND";
+		backpack = "TFA_Kitbag_Tan";
+	};
+	class EAST1
+	{
+		displayName = "Private";
+		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\Corporal_gs.paa";
+
+		items[] = {
+			"ACRE_PRC148",
+			"NvGoggles"
+		};
+		linkedItems[] = {
+			"V_HarnessO_brn",
+			"H_HelmetSpecO_blk",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio"
+		};
+		uniformClass = "U_O_CombatUniform_ocamo";
+		backpack = "B_Bergen_blk";
+	};
+	class EAST2
+	{
+		displayName = "Candidate";
+		icon = "\A3\Ui_f\data\GUI\Cfg\Ranks\Private_gs.paa";
+
+		items[] = {
+			"ACRE_PRC148",
+			"NvGoggles"
+		};
+		linkedItems[] = {
+			"V_HarnessO_brn",
+			"H_Cap_red",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio"
+		};
+		uniformClass = "U_O_CombatUniform_ocamo";
+		backpack = "B_Bergen_blk";
+	};
+};
