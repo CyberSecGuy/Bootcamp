@@ -36,6 +36,9 @@ skipTime definedTime;
 [east,"east1"] call BIS_fnc_addRespawnInventory;
 [east,"east2"] call BIS_fnc_addRespawnInventory;
 
+//Repack Script
+[] execVM "scripts\outlw_magRepack\MagRepack_init_sv.sqf";
+
 // Chair Script Init
 BIS_fnc_switchMove = {
     private["_object","_anim"];
