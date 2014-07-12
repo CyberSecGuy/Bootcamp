@@ -14,8 +14,6 @@ enableSaving [false, false];
 // Squad Manager
 0 = [] execVM 'scripts\group_manager.sqf';
 
-// skipTime for Instructor 1
-
 // Cleanup
 [
     5*60, // seconds to delete dead bodies (0 means don't delete) 
