@@ -30,6 +30,17 @@ class RscTitles
 {
 	#include "=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.h"
 };
+
+class CfgMusic
+{
+  tracks[]={Fortunate_Son};
+  class Fortunate_Son
+  {
+    name = "Fortunate_Son";
+    sound[] = {\music\Fortunate_Son.ogg, db+2, 1.0};
+  };
+};
+
 class CfgRespawnInventory
 {
 	class WEST1
