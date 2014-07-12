@@ -11,13 +11,10 @@ nopop = true;
 _logistic = execVM "=BTC=_Logistic\=BTC=_Logistic_Init.sqf";
 enableSaving [false, false];
 
-//Time of Day
-definedTime = (paramsArray select 0);
-skipTime definedTime;
-
-
 // Squad Manager
 0 = [] execVM 'scripts\group_manager.sqf';
+
+// skipTime for Instructor 1
 
 // Cleanup
 [
@@ -37,7 +34,7 @@ skipTime definedTime;
 [east,"east2"] call BIS_fnc_addRespawnInventory;
 
 //Repack Script
-[] execVM "scripts\outlw_magRepack\MagRepack_init_sv.sqf";
+// [] execVM "scripts\outlw_magRepack\MagRepack_init_sv.sqf";
 
 // Chair Script Init
 BIS_fnc_switchMove = {
