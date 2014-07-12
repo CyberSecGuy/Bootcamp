@@ -18,5 +18,3 @@ if (isNil "standup") then
 	standup = _unit addaction ["<t color='#0099FF'>Stand Up</t>","scripts\Chair\standup.sqf"];
 };
 _unit setposASLW[getposASLW _unit select 0, getposASLW _unit select 1,((getposASLW _unit select 2) +0.5)]
-
-
