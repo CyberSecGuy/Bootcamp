@@ -13,7 +13,6 @@ showNotePad = 1;
 disabledAI = 1;
 OnLoadMission = "Welcome to the 19th Military Combat Unit bootcamp: the bootcamp for most training exercises with in our unit.";
 loadScreen = "loadscreen\bootcamp.jpg"; 
-#include "scripts\outlw_magRepack\MagRepack_config.hpp"
 
 OnLoadName = "Back to Basic";
 saving = 0;
