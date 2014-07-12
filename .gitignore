@@ -35,5 +35,7 @@ Icon
 .Spotlight-V100
 .Trashes
 
+
 # IntelliJ Projects
 *.iml
+.idea/
