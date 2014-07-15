@@ -19,7 +19,8 @@ switch (_mos) do
 	     player additem "AGM_EarBuds";
 	     player addweapon "RH_m16a4_m";
 	     player selectweapon "RH_m16a4_m";
-	     player setAmmo [currentWeapon player, 10];};
+	     player setAmmo [currentWeapon player, 10];
+	 };
 	     
      case "Grenadier": {
 	     
@@ -47,7 +48,8 @@ switch (_mos) do
 	     player addmagazine "1Rnd_Smoke_Grenade_shell";
 	     player addmagazine "1Rnd_Smoke_Grenade_shell";
 	     player addweapon "RH_m16a4gl";
-	     player selectweapon "RH_m16a4gl";};
+	     player selectweapon "RH_m16a4gl";
+	 };
 
      case "Grenade": {
 	     
@@ -58,12 +60,21 @@ switch (_mos) do
 	     player addmagazine "MiniGrenade";
 	     player addmagazine "MiniGrenade";
 	     player addmagazine "MiniGrenade";
+	     player addmagazine "smokeshell";
+	     player addmagazine "smokeshell";
+	     player addmagazine "smokeshellred";
+	     player addmagazine "smokeshellred";
+	     player addmagazine "smokeshellgreen";
+	     player addmagazine "smokeshellgreen";
+	     player addmagazine "smokeshellyellow";
+	     player addmagazine "smokeshellyellow";
+	     player addmagazine "smokeshellpurple";
+	     player addmagazine "smokeshellpurple";
 	     player addmagazine "smokeshellblue";
 	     player addmagazine "smokeshellblue";
-	     player addmagazine "smokeshellblue";
-	     player addmagazine "smokeshellblue";
-	     player addmagazine "smokeshellblue";
-	     player addmagazine "smokeshellblue";};
+	     player addmagazine "smokeshellorange";
+	     player addmagazine "smokeshellorange";
+	 };
 
 	case "AT": {
 	     
@@ -76,7 +87,8 @@ switch (_mos) do
 	     player addweapon "launch_NLAW_F";
 	     player addMagazine "NLAW_F";
 	     player addMagazine "NLAW_F";
-	     player addMagazine "NLAW_F";};
+	     player addMagazine "NLAW_F";
+	 };
 	    
 	case "AA": {
 	     
@@ -88,11 +100,13 @@ switch (_mos) do
 	     player additem "AGM_EarBuds";
 	     player addweapon "launch_B_Titan_F";
 	     player addMagazine "Titan_AA";
-	     player addMagazine "Titan_AA";};
+	     player addMagazine "Titan_AA";
+	 };
 
 	case "Automatic": {
 	     
-	     hint Format ["Automatic Rifleman Qualification Loadout - Equipted"];
+	     hint Format ["Automatic Rifleman Qualificati
+	     on Loadout - Equipted"];
 	     removeallweapons player;
 	     removebackpack player;
 	    
@@ -100,7 +114,8 @@ switch (_mos) do
 	     player additem "AGM_EarBuds";
 	     player selectweapon "LMG_Mk200_F";
 	     player additem "optic_Holosight";
-	     player addMagazine "200Rnd_65x39_cased_Box";};
+	     player addMagazine "200Rnd_65x39_cased_Box";
+	 };
 
 	case "Stance": {
 	     
@@ -111,12 +126,13 @@ switch (_mos) do
 	     player selectweapon "hgun_P07_F";
 	     player addMagazine "16Rnd_9x21_Mag";
 	     player addMagazine "16Rnd_9x21_Mag";
-	     player addMagazine "16Rnd_9x21_Mag";};
+	     player addMagazine "16Rnd_9x21_Mag";
+	 };
 	     
      case "Remove": {
 	     
 	     hint Format ["Qualification Removed"];
 	     removeallweapons player;
-	     removebackpack player;};         
-	     };
+	     removebackpack player;
+	 };
 };
