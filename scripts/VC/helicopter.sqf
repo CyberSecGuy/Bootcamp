@@ -12,7 +12,7 @@ switch (_choice) do
 	// VEHICLES
      case "little": {_heli1 = "B_Heli_Light_01_F" createVehicle (getMarkerPos "helispawn_transport");_heli1 setDir -38;player moveInDriver _heli1;
       ["Vehicle_Scrap", [_heli1,"<t color=""#ff0000"">" +"Scrap Vehicle",nil,"scripts\callout.sqf"]] call CBA_fnc_globalEvent;
-[-1, {HQ sideChat format _this}, ["%1 has spawned a MH-9 Littlebird",name player]] call CBA_fnc_globalExecute; };
+        [-1, {HQ sideChat format _this}, ["%1 has spawned a MH-9 Littlebird",name player]] call CBA_fnc_globalExecute; };
       
      case "lynx": {_heli2 = "I_Heli_light_03_unarmed_F" createVehicle (getMarkerPos "helispawn_transport");_Heli2 setDir -38;player moveInDriver _heli2;
      ["Vehicle_Scrap", [_heli2,"<t color=""#ff0000"">" +"Scrap Vehicle",nil,"scripts\callout.sqf"]] call CBA_fnc_globalEvent;_heli2 setObjectTextureGlobal[0,"#(argb,8,8,3)color(0.518,0.519,0.519,0.2)"];
@@ -41,7 +41,5 @@ switch (_choice) do
      ["Vehicle_Scrap", [_buzzat,"<t color=""#ff0000"">" +"Scrap Vehicle",nil,"scripts\callout.sqf"]] call CBA_fnc_globalEvent;_buzzat setObjectTextureGlobal[0,"#(argb,8,8,3)color(0.518,0.519,0.519,0.4)"];
      _buzzat setObjectTextureGlobal[1,"#(argb,8,8,3)color(0.518,0.519,0.519,0.3)"];
      [-1, {HQ sideChat format _this}, ["%1 has spawned a L-39ZA CAS",name player]] call CBA_fnc_globalExecute; };
-
-	};         
 };
 
