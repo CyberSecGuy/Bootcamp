@@ -40721,7 +40721,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=106;
+		items=133;
 		class Item0
 		{
 			position[]={4979.4858,29.637764,6282.9507};
@@ -41570,6 +41570,267 @@ class Mission
 			name="supplyspawn";
 			type="Empty";
 			angle=-57.487526;
+		};
+		class Item106
+		{
+			position[]={600.39563,157.70847,7888.3594};
+			name="Chart";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlack";
+			fillName="SolidFull";
+			a=500;
+			b=200;
+		};
+		class Item107
+		{
+			position[]={151.70062,111.75124,7971.668};
+			name="Command";
+			text="Command: RT/1523";
+			type="b_hq";
+			colorName="ColorWEST";
+		};
+		class Item108
+		{
+			position[]={142.59515,121.3122,7934.3516};
+			name="Command_Point";
+			text="COMMAND: 67.7";
+			type="n_installation";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item109
+		{
+			position[]={578.06171,163.20639,7976.2549};
+			name="Fireteam Channels";
+			text="Fireteam: AN/PRC 152";
+			type="b_hq";
+			colorName="ColorWEST";
+		};
+		class Item110
+		{
+			position[]={143.12445,139.33595,7847.1621};
+			name="Command_Point_1";
+			text="GROUND-AIR: 37.1";
+			type="n_service";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item111
+		{
+			position[]={142.44281,126.51492,7905.8398};
+			name="Command_Point_1_1";
+			text="GROUND-SUPPORT: 65.1";
+			type="n_air";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item112
+		{
+			position[]={143.06195,144.35016,7817.5605};
+			name="Command_Point_1_2";
+			text="AIR-AIR: 61.2";
+			type="n_plane";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item113
+		{
+			position[]={570.34125,163.8768,7909.5254};
+			name="Command_Point_2";
+			text="ALPHA 1-1: 403.5";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item114
+		{
+			position[]={569.76312,157.94267,7847.248};
+			name="Command_Point_1_3";
+			text="ALPHA 1-3: 133.1";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item115
+		{
+			position[]={569.47406,161.31204,7879.9014};
+			name="Command_Point_1_1_1";
+			text="ALPHA 1-2: 138.4";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item116
+		{
+			position[]={570.41351,165.46808,7941.9258};
+			name="Command_Point_1_2_1";
+			text="ALPHA 1";
+			type="n_installation";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item117
+		{
+			position[]={832.75,146.41209,7909.3555};
+			name="Command_Point_2_1";
+			text="BRAVO 1-1: 325.1";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item118
+		{
+			position[]={832.17188,150.10657,7847.0781};
+			name="Command_Point_1_3_1";
+			text="BRAVO 1-3: 383.6";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item119
+		{
+			position[]={831.88379,149.05795,7877.9912};
+			name="Command_Point_1_1_1_1";
+			text="BRAVO 1-2: 132.7";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item120
+		{
+			position[]={832.82031,143.76637,7941.7559};
+			name="Command_Point_1_2_1_1";
+			text="BRAVO 1";
+			type="n_installation";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item121
+		{
+			position[]={143.20648,142.5041,7771.957};
+			name="TEAMSPEAK";
+			text="TEAMSPEAK: TS.19THMCU.COM";
+			type="loc_Transmitter";
+			colorName="ColorWhite";
+		};
+		class Item122
+		{
+			position[]={154.02679,100.45416,8061.9502};
+			name="TEAMSPEAK_1";
+			text="FREQUNECY CHART FOR THE 19TH MILITARY COMBAT UNIT";
+			type="n_med";
+			colorName="ColorWhite";
+		};
+		class Item123
+		{
+			position[]={143.70453,141.10509,7739.2939};
+			name="TEAMSPEAK_2";
+			text="WEBSITE: WWW.19THMCU.COM";
+			type="loc_Transmitter";
+			colorName="ColorWhite";
+		};
+		class Item124
+		{
+			position[]={141.72797,131.44449,7875.8779};
+			name="Command_Point_1_1_2";
+			text="SUPPORT-SUPPORT: 84.7";
+			type="n_armor";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item125
+		{
+			position[]={570.17328,154.56841,7778.8672};
+			name="Command_Point_2_1_1";
+			text="CHARLIE 1-1: 221.5";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item126
+		{
+			position[]={569.59711,150.66541,7716.5908};
+			name="Command_Point_1_3_1_1";
+			text="CHARLIE 1-3: 442.6";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item127
+		{
+			position[]={569.30804,152.96852,7747.502};
+			name="Command_Point_1_1_1_1_1";
+			text="CHARLIE 1-2: 258.2";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item128
+		{
+			position[]={570.24554,156.15564,7811.2676};
+			name="Command_Point_1_2_1_1_1";
+			text="CHARLIE 1";
+			type="n_installation";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item129
+		{
+			position[]={834.59961,150.67902,7777.125};
+			name="Command_Point_2_1_1_1";
+			text="ALPHA 2-1: 278.9";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item130
+		{
+			position[]={834.02148,148.84265,7714.8486};
+			name="Command_Point_1_3_1_1_1";
+			text="ALPHA 2-3: 210.1";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item131
+		{
+			position[]={833.73242,149.95107,7745.7617};
+			name="Command_Point_1_1_1_1_1_1";
+			text="ALPHA 2-2: 198.1";
+			type="o_unknown";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
+		};
+		class Item132
+		{
+			position[]={834.67188,150.77699,7809.5273};
+			name="Command_Point_1_2_1_1_1_1";
+			text="ALPHA 2";
+			type="n_installation";
+			colorName="ColorRed";
+			a=0.5;
+			b=0.5;
 		};
 	};
 	class Sensors
