@@ -10,20 +10,20 @@ _mos = _this select 3;
 switch (_mos) do
 {
      case "Rifle": {
-	     
+
 	     hint Format ["Rifleman Qualification Loadout - Equipted"];
 	     removeallweapons player;
 	     removebackpack player;
-	     player addmagazine "30Rnd_556x45_Stanag_Tracer_Yellow";
-	     player addmagazine "30Rnd_556x45_Stanag_Tracer_Yellow";
+	     player addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
+	     player addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
 	     player additem "AGM_EarBuds";
-	     player addweapon "RH_m16a4_m";
-	     player selectweapon "RH_m16a4_m";
+	     player addweapon "FHQ_M4A1_BLK";
+	     player selectweapon "FHQ_M4A1_BLK";
 	     player setAmmo [currentWeapon player, 10];
 	 };
-	     
+
      case "Grenadier": {
-	     
+
 	     hint Format ["Grenadier Qualification Loadout - Equipted"];
 	     removeallweapons player;
 	     removebackpack player;
@@ -47,12 +47,12 @@ switch (_mos) do
 	     player addmagazine "1Rnd_Smoke_Grenade_shell";
 	     player addmagazine "1Rnd_Smoke_Grenade_shell";
 	     player addmagazine "1Rnd_Smoke_Grenade_shell";
-	     player addweapon "RH_m16a4gl";
-	     player selectweapon "RH_m16a4gl";
+	     player addweapon "FHQ_M4A1_M203_BLK";
+	     player selectweapon "FHQ_M4A1_M203_BLK";
 	 };
 
      case "Grenade": {
-	     
+
 	     hint Format ["Grenade Course Loadout - Equipted"];
 	     removeallweapons player;
 	     player additem "AGM_EarBuds";
@@ -77,7 +77,7 @@ switch (_mos) do
 	 };
 
 	case "AT": {
-	     
+
 	     hint Format ["Anti-Tank Qualification Loadout - Equipted"];
 	     removeallweapons player;
 	     removebackpack player;
@@ -89,9 +89,9 @@ switch (_mos) do
 	     player addMagazine "NLAW_F";
 	     player addMagazine "NLAW_F";
 	 };
-	    
+
 	case "AA": {
-	     
+
 	     hint Format ["Anti-Air Qualification Loadout - Equipted"];
 	     removeallweapons player;
 	     removebackpack player;
@@ -104,12 +104,12 @@ switch (_mos) do
 	 };
 
 	case "Automatic": {
-	     
+
 	     hint Format ["Automatic Rifleman Qualificati
 	     on Loadout - Equipted"];
 	     removeallweapons player;
 	     removebackpack player;
-	    
+
 	     player addweapon "LMG_Mk200_F";
 	     player additem "AGM_EarBuds";
 	     player selectweapon "LMG_Mk200_F";
@@ -118,7 +118,7 @@ switch (_mos) do
 	 };
 
 	case "Stance": {
-	     
+
 	     hint Format ["Stance Course Loadout - Equipted"];
 
 	     player addweapon "hgun_P07_F";
@@ -128,9 +128,9 @@ switch (_mos) do
 	     player addMagazine "16Rnd_9x21_Mag";
 	     player addMagazine "16Rnd_9x21_Mag";
 	 };
-	     
+
      case "Remove": {
-	     
+
 	     hint Format ["Qualification Removed"];
 	     removeallweapons player;
 	     removebackpack player;
