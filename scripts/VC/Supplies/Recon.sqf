@@ -9,26 +9,46 @@ clearMagazineCargoGlobal _crate;
 clearWeaponCargoGlobal _crate;
 clearItemCargoGlobal _crate;
 
-_crate addWeaponCargoGlobal ["R3F_HK417M",2];
+_crate addWeaponCargoGlobal ["Trixie_M110",2];
+_crate addWeaponCargoGlobal ["Trixie_M110_NG",2];
+_crate addWeaponCargoGlobal ["Trixie_M110_NG_Black",2];
+_crate addWeaponCargoGlobal ["Trixie_M40A3",2];
+_crate addWeaponCargoGlobal ["Trixie_M40A3_NG",2];
+_crate addWeaponCargoGlobal ["Trixie_M40A3_Clean",2];
+_crate addWeaponCargoGlobal ["Trixie_M14DMR",2];
+_crate addWeaponCargoGlobal ["Trixie_M14DMR_NG",2];
+_crate addWeaponCargoGlobal ["Trixie_M14DMR_Clean",2];
+_crate addWeaponCargoGlobal ["Trixie_M14DMR_NG_Black",2];
+_crate addWeaponCargoGlobal ["Trixie_M14DMR_Clean_Black",2];
+_crate addWeaponCargoGlobal ["Trixie_M107",2];
+_crate addWeaponCargoGlobal ["Trixie_M107_Black",2];
+_crate addWeaponCargoGlobal ["Trixie_M107_Green",2];
+
+
+_crate addMagazineCargoGlobal ["Trixie_20x762_Mag",10];
+_crate addMagazineCargoGlobal ["Trixie_5x762_Mag",10];
+_crate addMagazineCargoGlobal ["Trixie_10x127_Mag",10];
+_crate addMagazineCargoGlobal ["Trixie_10x127_HE_Mag",10];
+_crate addMagazineCargoGlobal ["Trixie_10x127_HEIAP_Mag",10];
+
 _crate addWeaponCargoGlobal ["Laserdesignator",1];
 _crate addWeaponCargoGlobal ["Rangefinder",1];
-_crate addMagazineCargoGlobal ["R3F_20Rnd_762x51_HK417",10];
-_crate addMagazineCargoGlobal ["R3F_20Rnd_762x51_TRACER_HK417",10];
-_crate addMagazineCargoGlobal ["R3F_10Rnd_762x51_FRF2",10];
-_crate addMagazineCargoGlobal ["R3F_7Rnd_127x99_PGM",10];
-_crate addMagazineCargoGlobal ["R3F_7Rnd_127x99_PEI_PGM",5];
-_crate addMagazineCargoGlobal ["R3F_10Rnd_127x99_M107",10];
-_crate addMagazineCargoGlobal ["R3F_10Rnd_127x99_PEI_M107",5];
-_crate addMagazineCargoGlobal ["7Rnd_408_Mag", 10];
-_crate addMagazineCargoGlobal ["5Rnd_127x108_Mag", 10];
-_crate addMagazineCargoGlobal ["5Rnd_127x108_APDS_Mag", 10];
-_crate addMagazineCargoGlobal ["30Rnd_556x45_Stanag", 20];
 _crate addMagazineCargoGlobal ["Laserbatteries", 2];
-_crate addItemCargoGlobal ["R3F_J10_MILDOT", 4];
-_crate addItemCargoGlobal ["R3F_SILENCIEUX_HK417", 4];
+
+_crate addWeaponCargoGlobal ["Trixie_LSMARK4_Net",4];
+_crate addWeaponCargoGlobal ["Trixie_LSMARK4",4];
+_crate addWeaponCargoGlobal ["Trixie_SB31250",4];
+_crate addWeaponCargoGlobal ["Trixie_SB31250_Net",4];
 _crate addItemCargoGlobal ["optic_SOS", 4];
 _crate addItemCargoGlobal ["optic_LRPS", 4];
 _crate addItemCargoGlobal ["optic_DMS", 4];
-_crate addItemCargoGlobal ["R3F_NF42", 4]; 
+_crate addItemCargoGlobal ["R3F_NF42", 4];
+_crate addItemCargoGlobal ["Item_muzzle_snds_B", 4];
 
-
+_crate addItemCargoGlobal ["AGM_Bandage",40];
+_crate addItemCargoGlobal ["AGM_Morphine",20];
+_crate addItemCargoGlobal ["AGM_Epipen",20];
+_crate addItemCargoGlobal ["AGM_EarBuds",20];
+_crate addItemCargoGlobal ["AGM_Bloodbag",20];
+_crate addItemCargoGlobal ["SmokeShellBlue", 20];
+_crate addItemCargoGlobal ["SmokeShellPurple", 20];

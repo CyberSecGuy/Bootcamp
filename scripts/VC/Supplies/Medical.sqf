@@ -14,6 +14,5 @@ _crate addItemCargoGlobal ["AGM_Morphine",20];
 _crate addItemCargoGlobal ["AGM_Epipen",20];
 _crate addItemCargoGlobal ["AGM_EarBuds",20];
 _crate addItemCargoGlobal ["AGM_Bloodbag",20];
-
+_crate addItemCargoGlobal ["SmokeShellBlue", 20];
 _crate addItemCargoGlobal ["SmokeShellPurple", 20];
-
