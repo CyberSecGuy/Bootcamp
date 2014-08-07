@@ -12,7 +12,7 @@ showWatch = 1;
 showNotePad = 1;
 disabledAI = 1;
 OnLoadMission = "Welcome to the 19th Military Combat Unit bootcamp: the bootcamp for most training exercises with in our unit.";
-loadScreen = "loadscreen\bootcamp.jpg"; 
+loadScreen = "loadscreen\bootcamp.jpg";
 
 OnLoadName = "Back to Basic";
 saving = 0;
@@ -26,7 +26,7 @@ respawnTemplatesWest[] = {"MenuInventory"};
 respawnTemplatesEast[] = {"MenuInventory"};
 class Header { gameType   = Coop; minPlayers = 1; maxPlayers = 45; };
 #include "taw_vd\dialog.hpp"
-class RscTitles 
+class RscTitles
 {
 	#include "=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.h"
 };
@@ -48,14 +48,15 @@ class CfgRespawnInventory
 			"NvGoggles"
 		};
 		linkedItems[] = {
-			"V_PlateCarrier1_blk",
-			"H_Beret_blk",
+			"H_Cap_headphones",
+			"STR_CFG_GLASSES_SHADES_BLACK",
+			"V_Rangemaster_belt",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio"
 		};
-		uniformClass = "TFA_BLACK_SND";
+		uniformClass = "U_Rangemaster";
 	};
 	class WEST2
 	{
@@ -67,15 +68,15 @@ class CfgRespawnInventory
 			"NvGoggles"
 		};
 		linkedItems[] = {
-			"TFA_PlateCarrierH_Tan",
-			"TFA_ECH_Tan",
+			"TFA_PlateCarrierH_MCam",
+			"TFA_ECH_Multi",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio"
 		};
-		uniformClass = "TFA_BLACK_SND";
-		backpack = "TFA_Kitbag_Tan";
+		uniformClass = "tfa_mcam";
+		backpack = "TFA_Kitbag_MCam";
 	};
 	class WEST3
 	{
@@ -87,15 +88,15 @@ class CfgRespawnInventory
 			"NvGoggles"
 		};
 		linkedItems[] = {
-			"TFA_Candidates_Vest",
-			"H_Cap_red",
+			"V_HarnessO_brn",
+			"H_HelmetB_plain_mcamo",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
 			"ItemRadio"
 		};
-		uniformClass = "TFA_BLACK_SND";
-		backpack = "TFA_Kitbag_Tan";
+		uniformClass = "U_B_CombatUniform_mcam_tshirt";
+		backpack = "B_Carryall_ocamo";
 	};
 	class EAST1
 	{
